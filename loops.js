@@ -5,3 +5,8 @@ function forLoop(array) {
     } 
     return array
 }
+
+function WhileLoop(n){
+  
+}
+
