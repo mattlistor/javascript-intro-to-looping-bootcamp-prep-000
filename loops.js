@@ -20,7 +20,7 @@ function incrementVariable() {
 
 function doWhileLoop(n){
   do {
-    "console.log(";
+    console.log("I run once regardless.")
   } while ([condition]);
   return 'done'
 }
