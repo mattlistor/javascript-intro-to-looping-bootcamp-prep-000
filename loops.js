@@ -14,9 +14,9 @@ function whileLoop(n){
 }
 
 function doWhileLoop(n){
-  do-while n > 0) {
-    console.log(--n);
-  }
+  do {
+    [loopBody];
+  } while ([condition]);
   return 'done'
 }
 
