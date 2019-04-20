@@ -20,17 +20,13 @@ function incrementVariable() {
   return i;
 }
 
-
-function doWhileLoop(array) {
-  function maybeTrue() {
-    return Math.random() >= 0.5
-  }
-
+function doWhileLoop(num){
   do {
-    array.pop();
-  } while (array.length > -1 && maybeTrue());
-    return array;
+    console.log("I run once regardless.")
+  } while (incrementVariable() < num);
 }
+
+
 
 
 
