@@ -13,9 +13,14 @@ function whileLoop(n){
   return 'done'
 }
 
+function incrementVariable() {
+  i = i + 1;
+  return i;
+}
+
 function doWhileLoop(n){
   do {
-    [loopBody];
+    "console.log(";
   } while ([condition]);
   return 'done'
 }
